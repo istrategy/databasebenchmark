@@ -25,14 +25,14 @@ def input_data(x):
     # print(student_data)
 
     # dictionary dumped as json in a json file
-    with open('students1M.json', 'w') as fp:
+    with open('students10K.json', 'w') as fp:
         json.dump(student_data, fp)
 
 
 def main():
     # Enter number of students
 
-    number_of_students = 1000000
+    number_of_students = 10000
     input_data(number_of_students)
 
 
